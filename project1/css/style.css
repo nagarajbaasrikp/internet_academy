@@ -1,0 +1,202 @@
+body {
+  margin: 0px auto;
+  padding: 0px;
+}
+p {
+  font-family: "Open Sans", serif;
+  font-size: 15px;
+}
+h3, h6, h2 {
+  text-align: center;
+  font-family: "Kameron", serif;
+}
+h6 {
+  color: #bc9380;
+}
+ul {
+  list-style: none;
+  padding: 0px;
+}
+.smart {
+  display: none;
+}
+.soc_media ul li {
+  display: inline;
+}
+.container {
+  width: 100%;
+  margin: 0px auto;
+}
+.dummycontainer {
+  width: inherit;
+}
+.clear_fix {
+  content: '';
+  display: table;
+  clear: both;
+}
+.feedback {
+  display: flex;
+  padding: 0px 10px;
+  align-items: center;
+}
+.photo {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.border {
+  border-style: groove;
+  border-color: #bc9380;
+  border-width: 1px;
+  width: inherit;
+}
+.cnl p {
+  display: inline;
+}
+
+
+header .top {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: auto 10%;
+}
+
+header .top .menu, header .top .logo, header .top .soc_media {
+  width: 33.33%;
+}
+
+header .top .logo {
+  text-align: center;
+  cursor: default;
+}
+
+header .top .soc_media {
+  text-align: right;
+}
+
+
+header .navi nav ul {
+  background-color: black;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+}
+
+header .navi nav ul li {
+  display: inline;
+  color: white;
+  padding: 5px;
+}
+
+header .navi nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px auto;
+}
+
+main .carousel {
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+}
+
+main .carousel .art_01, main .carousel .art_02, main .carousel .art_03 {
+  width: 33.33%;
+  background-color: #6a6a6a;
+  margin-right: 5px;
+}
+
+main .carousel .imgntxt {
+  display: flex;
+  align-items: center;
+}
+
+main .carousel .text {
+  text-align: left;
+  line-height: 10px;
+  padding-left: 10px;
+}
+
+main .carousel .imgntxt .arrow {
+  padding-left: 20%;
+}
+
+main .main {
+  display: inline-block;
+  line-height: 15px;
+  margin-left: 10%;
+  width: 52%;
+}
+
+main .main article .feedback .soc_media {
+  margin-left: 60%;
+}
+
+main .body {
+  display: flex;
+}
+
+main .body .sub_01, main  .body .sub_02 {
+  width: 49.25%;
+  padding: 0px;
+}
+
+main .body .sub_02 {
+  margin-left: 10px;
+}
+
+main .self {
+  width: 20%;
+  float: right;
+  clear: both;
+  margin-bottom: 10px;
+  margin-right: 10%;
+  padding-right: 5px;
+}
+
+main .self ul li .about_me .soc_media {
+  text-align: center;
+}
+
+main .self ul li .insta {
+  text-align: center;
+}
+
+main .self ul li .contact {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+main .self ul li .contact form input {
+  float: left;
+  clear: both;
+  margin-left: 10px;
+}
+
+main .self ul li .contact button {
+  background-color: #6a6a6a;
+}
+
+.footer footer {
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+.footer footer .lvl1 {
+  display: flex;
+  line-height: 0px;
+  width: 80%;
+  margin: 20px 10%;
+}
+
+.footer footer .lvl1 p {
+  cursor: default;
+}
+
+.footer footer .lvl1 .soc_media {
+  text-align: right;
+  margin-left: 82.5%;
+}

@@ -1,0 +1,110 @@
+* {
+  margin: 0px auto;
+  padding: 0px;
+  line-height: 150%;
+  font-family: 'Arial', serif;
+}
+.sp {
+  display: none;
+}
+.clear_fix {
+  display: table;
+  content: '';
+  clear: both;
+}
+.dummycontainer {
+  width: inherit;
+}
+.photo {
+  width: 100%;
+  height: auto;
+}
+header {
+  background-color: rgb(53, 58, 63);
+  color: white;
+  display: inline-flex;
+  width: 100%;
+  padding: 10px 0px;
+}
+
+header .heading {
+  margin-left: 10%;
+}
+
+header nav {
+  float: right;
+  clear: both;
+  margin-right: 10%;
+}
+
+header nav div {
+  display: inline-block;
+}
+
+header nav div a {
+  color: rgb(130, 130, 130);
+  padding-left: 5px;
+  text-decoration: none;
+}
+
+header nav div a:hover {
+  color: white;
+  transition: 1.5s;
+}
+
+main {
+  margin: 10px 10%;
+}
+
+main .page_heading {
+  margin: 10px 0px;
+  align-items: center;
+  display: inline-flex;
+}
+
+main .page_heading h2 {
+  font-weight: normal;
+  margin-right: 10px;
+}
+
+main .main {
+  display: flex;
+}
+
+main .main .desc {
+  margin: 10px 30px;
+  align-items: center;
+  width: 40%;
+}
+
+main .main .desc h4 {
+  padding: 20px 0px;
+  font-weight: normal;
+}
+
+main .main .desc ul {
+  padding:  0px 30px;
+}
+
+.projects {
+  margin: 0px auto 0px 10%;
+  display: flex;
+  width: 100%;
+}
+
+.projects ul {
+  width: 100%;
+}
+
+.projects ul li {
+  display: inline-block;
+  width: 20%;
+}
+
+footer {
+  background-color: rgb(53, 58, 63);
+  text-align: center;
+  color: white;
+  padding: 30px 0px;
+  font-weight: lighter;
+}

@@ -1,0 +1,125 @@
+* {
+  font-family: "Arial", serif;
+  margin: 0px auto;
+  padding: 0px;
+  line-height: 150%;
+}
+.pc {
+  display: none;
+}
+.container {
+  width: 90%;
+}
+.dummycontainer {
+  width: inherit;
+}
+.photo {
+  width: 100%;
+  height: auto;
+}
+h4 {
+  text-align: center;
+  font-family: "Arial", serif;
+  padding: 10px 0px;
+}
+p {
+  color: #585858;
+}
+
+header {
+  padding-top: 20px;
+  width: 100%;
+}
+
+header .lvl1 {
+  display: flex;
+}
+
+header .lvl1 .logo img {
+  width: 70%;
+  align-items: center;
+}
+
+header nav ul {
+  list-style-type: none;
+  background-color: black;
+  width: 100%;
+  padding: 10px 10%;
+  display: none;
+}
+
+header nav ul li {
+  padding: 5px 0px;
+}
+
+header nav ul li a {
+  color: white;
+}
+
+.body ul {
+  list-style: none;
+  margin: 10px auto;
+}
+
+.body .quote {
+  background-color: black;
+  text-align: center;
+}
+
+.body ul .quote p {
+  padding: 10px;
+  font-style: italic;
+  font-size: 20px;
+  color: white;
+  font-family: "Georgia", serif;
+}
+
+.body ul li {
+  margin-bottom: 25px;
+}
+
+.body ul li article .info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+}
+
+footer {
+  background-color: #111;
+  padding-bottom: 40px;
+  width: 100%;
+  font-size: 12px;
+}
+
+footer .links {
+  list-style-type: none;
+  padding-top: 20px;
+}
+
+footer .links .link h4 {
+  color: white;
+  text-align: left;
+}
+
+footer .links .link:nth-child(2) ul {
+  list-style: url("../images/right_arrow.jpg");
+}
+
+footer .links .link ul li a {
+  color: #585858;
+  text-decoration: none;
+}
+
+footer .links .link ul hr {
+  margin: 2.5px 0px;
+}
+
+footer .links .link ul .soc_media_bottom {
+  display: inline;
+  padding-right: 5px;
+}
+
+footer .links .link ul li a img {
+  margin-top: 10px;
+}

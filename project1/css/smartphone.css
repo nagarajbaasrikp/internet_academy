@@ -1,0 +1,154 @@
+body {
+  margin: 0px auto;
+  padding: 0px;
+}
+p {
+  font-family: "Open Sans", serif;
+  font-size: 15px;
+}
+h3, h6, h2 {
+  text-align: center;
+  font-family: "Kameron", serif;
+}
+h6 {
+  color: #bc9380;
+}
+ul {
+  list-style: none;
+}
+.pc {
+  display: none;
+}
+.soc_media ul li {
+  display: inline;
+}
+.container {
+  width: auto;
+  margin: 0px auto;
+}
+.dummycontainer {
+  width: inherit;
+}
+.clear_fix {
+  content: '';
+  display: table;
+  clear: both;
+}
+.photo {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.feedback {
+  display: flex;
+  padding: 0px 10px;
+  align-items: center;
+}
+.cnl p {
+  display: inline;
+}
+
+header .top {
+  display: flex;
+  align-items: center;
+}
+
+header .top .contact, header .top .logo {
+  width: 50%;
+}
+
+header .top .contact {
+  text-align: right;
+}
+
+header .gnavi nav ul {
+  width: 100%;
+  padding: 0px;
+}
+
+header .gnavi nav ul .s_nav {
+  background-color: #6a6a6a;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+header .gnavi nav ul .s_nav a {
+  /*background-image: url();*/
+  color: black;
+  text-decoration: none;
+}
+
+main .carousel {
+  text-align: center;
+}
+
+main .carousel .art_01, main .carousel .art_02, main .carousel .art_03 {
+  background-color: #6a6a6a;
+  margin-bottom: 10px;
+}
+
+main .carousel .imgntxt {
+  display: flex;
+  align-items: center;
+}
+
+main .carousel .imgntxt .text {
+  text-align: left;
+  line-height: 10px;
+  padding-left: 10px;
+}
+
+main .carousel .imgntxt .arrow {
+  margin-left: 40%;
+}
+
+main .main article {
+  line-height: 15px;
+  /*padding-left: 30px;*/
+}
+
+main .main article .feedback .soc_media {
+  margin-left: 20%;
+}
+
+main .body ul {
+  padding: 0px;
+}
+
+main .self {
+  margin-bottom: 10px;
+}
+
+main .self ul {
+  padding: 0px;
+}
+
+main .self ul li .about_me .soc_media {
+  text-align: center;
+}
+
+main .self ul li .about_me h3, main .self ul li .insta h3 {
+  border-style: groove;
+  border-color: #bc9380;
+  border-width: 1px;
+}
+
+main .self ul li .insta {
+  text-align: center;
+}
+
+.footer footer {
+  background-color: black;
+  color: white;
+  width: 100%;
+  line-height: 0px;
+}
+
+.footer footer .lvl1 {
+  padding-top: 15px;
+  display: flex;
+}
+
+.footer footer .lvl1 .soc_media {
+  margin-left: 45%;
+}
