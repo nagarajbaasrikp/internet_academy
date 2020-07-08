@@ -1,6 +1,22 @@
 * {
     margin: 0px auto;
     padding: 0px;
+    font-family: Yellowtail;
+}
+
+.background {
+    height: 200vh;
+    width: 100vw;
+    background-image: radial-gradient(circle at 50%, darkslategrey, slategrey);
+    background-attachment: fixed;
+}
+
+p {
+    margin: 50px;
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    font-size: 100px;
 }
 
 div.wrapper {
@@ -10,7 +26,7 @@ div.wrapper {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    background-color: darkslategrey;
+    background-image: radial-gradient(circle, grey, slategrey, darkslategrey);
     text-align: center;
 }
 
@@ -23,16 +39,19 @@ div.links {
     transform: translate(-50%, -50%);
     display: flex;
 }
-
+ 
 div.links a {
     text-decoration: none;
     color: #ccc;
     align-self: center;
-    padding: 5px;
+    padding: 10px;
+    font-size: x-large;
 }
 
 div.links a:hover {
-    background-color: teal;
+    background-color: rgba(0, 128, 128, 0.4);
     border-radius: 50px;
+    transition: .5s;
 }
+
 
