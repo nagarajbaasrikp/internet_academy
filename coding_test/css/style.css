@@ -7,11 +7,6 @@
 .sp {
   display: none;
 }
-.clear_fix {
-  display: table;
-  content: '';
-  clear: both;
-}
 .dummycontainer {
   width: inherit;
 }
@@ -53,7 +48,8 @@ header nav div a:hover {
 }
 
 main {
-  margin: 10px 10%;
+  width: 80%;
+  display: flex;
 }
 
 main .page_heading {
@@ -72,14 +68,10 @@ main .main {
 }
 
 main .main .desc {
-  margin: 10px 30px;
+  margin: 20px 40px;
   align-items: center;
+  justify-content: center;
   width: 40%;
-}
-
-main .main .desc h4 {
-  padding: 20px 0px;
-  font-weight: normal;
 }
 
 main .main .desc ul {
@@ -87,24 +79,20 @@ main .main .desc ul {
 }
 
 .projects {
-  margin: 0px auto 0px 10%;
-  display: flex;
-  width: 100%;
+  width: 80%;
 }
 
 .projects ul {
+  display: flex;
   width: 100%;
-}
-
-.projects ul li {
-  display: inline-block;
-  width: 20%;
+  justify-content: center;
+  margin: 40px auto;
 }
 
 footer {
   background-color: rgb(53, 58, 63);
   text-align: center;
   color: white;
-  padding: 30px 0px;
+  padding: 50px 0px;
   font-weight: lighter;
 }

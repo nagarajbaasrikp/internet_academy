@@ -4,26 +4,28 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grove</title>
-    <link rel="stylesheet" media="only screen and (max-width:767px)" href="css/smartphone.css">
-    <link rel="stylesheet" media="only screen and (min-width:768px) and (max-width:1023px)" href="css/tablet.css">
-    <link rel="stylesheet" media="only screen and (min-width:960px)" href="css/style.css">
+    <link rel="stylesheet" media="only screen and (max-width:320px)" href="css/smartphone.css">
+    <link rel="stylesheet" media="only screen and (min-width:321px) and (max-width:767px)" href="css/tablet.css">
+    <link rel="stylesheet" media="only screen and (min-width:768px)" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kameron" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
   <body>
     <header>
-      <div class="top container clear_fix">
-        <div class="menu pc">
+      <div class="top container">
+        <div class="menu smart">
           <a href="#"><img src="images/menu.png" height="30" width="30" alt="Check Browser Settings"></a>
         </div>
         <div class="logo">
-          <p style="font-size: 30px">GROVE</p>
+          <h1 style="text-align: left;">GROVE</h1>
         </div>
         <div class="soc_media pc">
-          <ul>
-            <li><a href="#"><img src="images/pint_ico.png" height="20" width="20" alt="Check Browser Settings"></a></li>
-            <li><a href="#"><img src="images/fb_ico.png" height="20" width="20" alt="Check Browser Settings"></a></li>
-            <li><a href="#"><img src="images/twitter_ico.png" height="20" width="20" alt="Check Browser Settings"></a></li>
+          <ul class="sm_icons">
+            <li><i class="material-icons">facebook</i></li>
+            <li><i class="material-icons">pinterest</i></li>
+            <li><i class="material-icons">instagram</i></li>
+            <li><i class="material-icons">snapchat</i></li>
           </ul>
         </div>
         <div class="contact smart">
@@ -50,30 +52,27 @@
             <li class="s_nav"><a href="#">Features</a></li>
             <li class="s_nav"><a href="#">Categories</a></li>
             <li class="s_nav"><a href="#">Pages</a></li>
+            <li class="s_nav"><a href="#">Contact</a></li>
           </ul>
         </nav>
       </div>
     </header>
-    <main class="container clear_fix">
-      <div class="carousel clear_fix">
-        <div class="art_01">
-          <div class="photo">
-            <img class="dummycontainer" src="images/section_01.jpg" alt="Check Browser Settings">
-          </div>
+    <main class="container">
+      <div class="carousel">
+        <article class="art">
+          <img src="images/section_01.jpg" alt="Check Browser Settings">
           <div class="imgntxt">
             <div class="text">
-              <h3 style="text-align: left">Adventures</h3>
-              <h2 style="text-align: left">Red/Purple Pill?</h2>
+              <h3>Adventures</h3>
+              <h2>Red/Purple Pill?</h2>
             </div>
             <div class="arrow">
               <a href="#"><img src="images/right_arrow.png" height="20px" alt="Check Browser Settings"></a>
             </div>
           </div>
-        </div>
-        <div class="art_02">
-          <div class="photo">
-            <img class="dummycontainer" src="images/section_01_02.jpg" alt="Check Browser Settings">
-          </div>
+        </article>
+        <article class="art">
+          <img src="images/section_01_02.jpg" alt="Check Browser Settings">
           <div class="imgntxt">
             <div class="text">
               <h3 style="text-align: left">Travel</h3>
@@ -83,11 +82,9 @@
               <a href="#"><img src="images/right_arrow.png" height="20px" alt="Check Browser Settings"></a>
             </div>
           </div>
-        </div>
-        <div class="art_03">
-          <div class="photo">
-            <img class="dummycontainer" src="images/section_01_03.jpg" alt="Check Browser Settings">
-          </div>
+        </article>
+        <article class="art">
+          <img src="images/section_01_03.jpg" alt="Check Browser Settings">
           <div class="imgntxt">
             <div class="text">
               <h3 style="text-align: left">Lifestyle</h3>
@@ -97,7 +94,7 @@
               <img class="dummycontainer" src="images/right_arrow.png" height="20px" alt="Check Browser Settings">
             </div>
           </div>
-        </div>
+        </article>
       </div>
       <div class="main container clear_fix">
         <article>

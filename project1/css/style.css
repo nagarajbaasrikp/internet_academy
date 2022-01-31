@@ -1,17 +1,15 @@
-body {
+* {
   margin: 0px auto;
   padding: 0px;
 }
 p {
   font-family: "Open Sans", serif;
-  font-size: 15px;
+  color: #042A2B;
 }
 h3, h6, h2 {
   text-align: center;
   font-family: "Kameron", serif;
-}
-h6 {
-  color: #bc9380;
+  color: #042A2B;
 }
 ul {
   list-style: none;
@@ -20,30 +18,14 @@ ul {
 .smart {
   display: none;
 }
-.soc_media ul li {
-  display: inline;
-}
-.container {
+img {
   width: 100%;
-  margin: 0px auto;
-}
-.dummycontainer {
-  width: inherit;
-}
-.clear_fix {
-  content: '';
-  display: table;
-  clear: both;
+  height: 50%;
 }
 .feedback {
   display: flex;
   padding: 0px 10px;
   align-items: center;
-}
-.photo {
-  width: 100%;
-  height: auto;
-  text-align: center;
 }
 .border {
   border-style: groove;
@@ -55,57 +37,43 @@ ul {
   display: inline;
 }
 
-
 header .top {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   width: 80%;
   margin: auto 10%;
 }
 
-header .top .menu, header .top .logo, header .top .soc_media {
-  width: 33.33%;
-}
-
-header .top .logo {
-  text-align: center;
-  cursor: default;
-}
-
-header .top .soc_media {
-  text-align: right;
-}
-
-
 header .navi nav ul {
-  background-color: black;
-  text-align: center;
+  background-color: #5EB1BF;
+  display: flex;
   width: 100%;
-  padding: 10px;
+  height: 10vh;
 }
 
 header .navi nav ul li {
-  display: inline;
-  color: white;
-  padding: 5px;
+  align-items: center;
 }
 
 header .navi nav ul li a {
-  color: white;
+  color: #D84727;
   text-decoration: none;
   padding: 5px auto;
 }
 
-main .carousel {
+header.soc_media {
   display: flex;
-  width: 80%;
-  margin-left: 10%;
+}
+header .soc_media .sm_icons, header .soc_media .sm_icons li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-main .carousel .art_01, main .carousel .art_02, main .carousel .art_03 {
-  width: 33.33%;
-  background-color: #6a6a6a;
-  margin-right: 5px;
+main .carousel {
+  display: flex;
+  justify-content: center;
 }
 
 main .carousel .imgntxt {
